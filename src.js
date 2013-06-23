@@ -1,6 +1,7 @@
 // bookmarklet template
 
 (function(){
-  alert("bookmarklet start at <"+document.title+">");
-  console.log("bookmarklet start at <"+document.title+">");
+  var msg = "bookmarklet start at <"+document.title+">";
+  alert(msg);
+  console.log(msg);
 })();
